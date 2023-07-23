@@ -1,0 +1,79 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 375px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #F9FAFF;
+}
+header {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    & h2{
+        color: rgba(19, 24, 63, 1);
+        font-size: 28px;
+        font-weight: 800;
+    }
+    & button{
+        border-radius: 28px;
+        background: rgba(19, 24, 63, 1);
+        color: rgba(255, 255, 255, 1);
+        height: 48px;
+        width: 140px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
+main {
+    padding: 16px;
+    & .budget{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        & h1{
+            font-size: 40px;
+            font-weight: 800;
+            color: rgba(19, 24, 63, 1);
+        }
+        & p{
+            font-size: 16px;
+            font-weight: 500;
+            color: rgba(131, 134, 154, 1);
+        }
+        & button{
+            border-radius: 31.5px;
+            background: var(--gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+            width: 167px;
+            height: 56px;
+            color: #FFFFFF;
+            font-size: 16px;
+            font-weight:700;
+        }
+    }
+    & img{
+    // margin: -10%;
+    }
+    & .header{
+        width: 343px;
+        height:120px;
+        border-radius: 10px;
+        background: var(--gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+        color: #FFFFFF;
+        font-size: 24px;
+        font-weight: 800;
+
+    }
+    & .card{
+        border-radius: 10px;
+        background: var(--ffffff, #FFF);
+        box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+
+    }
+}
