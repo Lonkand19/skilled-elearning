@@ -11,12 +11,17 @@ body {
   display: flex;
   flex-direction: column;
   background: #F9FAFF;
+  font-family: "Plus Jakarta Sans";
+  overflow-x: hidden;
 }
 
 header {
   padding: 16px;
   display: flex;
   justify-content: space-between;
+  font-size: 28px;
+  font-weight: 800;
+  align-items: center;
 }
 header h2 {
   color: rgb(19, 24, 63);
@@ -31,6 +36,7 @@ header button {
   width: 140px;
   font-size: 16px;
   font-weight: 700;
+  border: 0;
 }
 
 main {
@@ -59,6 +65,15 @@ main .budget button {
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 700;
+  border: 0;
+}
+main .hero {
+  margin-left: -50px;
+}
+main .card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 main .header {
   width: 343px;
@@ -66,11 +81,40 @@ main .header {
   border-radius: 10px;
   background: var(--gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
   color: #FFFFFF;
+}
+main .header h2 {
   font-size: 24px;
   font-weight: 800;
+  padding: 18px;
 }
 main .card {
   border-radius: 10px;
   background: var(--ffffff, #FFF);
   box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+  width: 343px;
+  height: 259px;
+}
+main .card h2 {
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(19, 24, 63);
+  padding: 16px;
+}
+main .card p {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(131, 134, 154);
+  padding: 0 28px 32px 29px;
+}
+main .card button {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(247, 71, 128);
+  padding: 16px;
+  border: 0;
+  background: none;
+}
+main .card img {
+  margin-top: -30px;
+  margin-left: 25px;
 }/*# sourceMappingURL=style.css.map */
