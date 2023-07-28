@@ -149,7 +149,7 @@ footer button {
   padding: 11px 24px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 376px) {
   body main aside {
     display: grid;
     grid-template-columns: 55% 35%;
@@ -177,5 +177,45 @@ footer button {
   }
   body main .card-container .header h2 {
     padding: 35px 0 0 0;
+  }
+}
+@media screen and (max-width: 1440px) {
+  body header {
+    padding: 29px 165px;
+  }
+  body main aside {
+    display: grid;
+    grid-template-columns: 55% 35%;
+  }
+  body main .budget {
+    display: flex;
+    flex-direction: column;
+    padding: 165px;
+    gap: 25px;
+    margin-top: 30px;
+  }
+  body main .hero-mobile {
+    margin-left: -50px;
+    display: none;
+  }
+  body main .hero-tablet {
+    margin-left: -50px;
+    display: none;
+    margin-top: -170px;
+  }
+  body main .hero-desktop {
+    margin-left: -50px;
+    display: block;
+    margin-top: -270px;
+  }
+  body main .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    padding: 0 30px 120px 80px;
+  }
+  body footer {
+    padding: 29px 165px;
+    margin-top: 10vw;
   }
 }/*# sourceMappingURL=style.css.map */
